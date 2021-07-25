@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>LinkStore Launcher</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+
+	<style type="text/css">
+		html, body{
+			font-family: 'Open Sans', sans-serif;
+			font-size: 14px;
+			margin: 0;
+			min-height: 180px;
+			padding: 0;
+			width: 384px;
+		}
+
+		h1 {
+			font-family: 'Menlo', monospace;
+			font-size: 22px;
+			font-weight: 400;
+			margin:0;
+			color: #2f5876;
+		}
+
+		a:link, a:visited {
+			outline: 0;
+			text-decoration: none;
+		}
+
+		img {
+			width: 30px;
+		}
+
+		.modal-header {
+			align-items: center;
+			border-bottom: 0.5px solid #dadada;
+		}
+
+		#linklist.modal-header {
+			align-items: center;
+			border-top: 0.5px solid #dadada;
+		}
+
+		#linklist.modal-header:hover {
+			align-items: center;
+			border-top: 0.5px solid #dadada;
+		}
+
+		.modal-content {
+			padding: 0 22px;
+		}
+
+		.modal-icons {
+			border-top: 0.5px solid #dadada;
+			height: 50px;
+			width: 100%;
+		}
+
+		.logo {
+			padding: 16px;
+		}
+
+		.logo-icon{
+			vertical-align: text-bottom;
+			margin-right: 12px;
+		}
+
+		.version {
+			color: #444;
+			font-size: 18px;
+		}
+
+		.flex-container {
+			display: flex;
+			justify-content: space-between;
+			padding: 10px 22px;
+		}
+
+		.flex {
+			opacity: 1;
+			transition: opacity 0.2s ease-in-out;
+			width: 120px;
+		}
+
+		.flex:hover {
+			opacity: 0.4;
+		}
+
+		.flex .fa {
+			font-size: 40px;
+			color: #2f5876;
+		}
+	</style>
+</head>
+<body>
+	<div class="modal-header">
+		<h1 class="logo">
+			<img class="logo-icon" src="images/ls.png" alt="LinkStore Launcher">LinkStore 
+			Launcher<span class="version">(1.0.0)</span></img>
+		</h1>
+	</div>
+	<div class="modal-content">
+		<p>Store your wished items across many websites in a list.</p>
+	</div>
+	<div class="modal-content">
+		<div id="linklist" class="modal-header">
+			<a href="https://www.discogs.com/Kanye-West-Graduation/master/8497" target="_blank" style="display:block;padding:8px">
+				<strong>Kanye West Graduation Vinyl (UNOFFICIAL)</strong>
+			</a>
+			<a href="https://www.discogs.com/TylerCreator-Scum-Fuck-Flower-Boy/release/11195697" target="_blank" style="display:block;padding:8px">
+				<strong>Tyler, The Creator - Scum Fuck Flower Boy Vinyl</strong>
+			</a>
+		</div>
+	</div>
+	<script type="popup.js"></script>
+</body>
+</html>

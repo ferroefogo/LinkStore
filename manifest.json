@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "LinkStore",
+	"description": "Quick launch LinkStore",
+	"version": "1.0.0",
+	"icons": {"128": "ls.png"},
+	"browser_action": {
+		"default_icon": "ls.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": ["activeTab"]
+}
+
+
+
+
+
